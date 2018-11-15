@@ -1,8 +1,26 @@
 
-#更新第三方库SDWebImage
-<!--[![CI Status](http://img.shields.io/travis/Michael Waterfall/MWPhotoBrowser.svg?style=flat)](https://travis-ci.org/Michael Waterfall/MWPhotoBrowser)-->
-因为我的项目需要这个库，这个项目不会更新很长一段时间
+# 更新第三方库
 
+## 理由
+
+因为我的项目需要这个库，这个项目不会更新很长一段时间。有的第三方库需要更新才能应用。
+
+# 更新
+
+- MBProgressHUD
+	- 0.9 -> 1.0.0
+- SDWebImage
+	- 3.7 ->  4.0.0
+- DACircularProgress
+	- 2.3 -> 2.3.1
+
+## 利用git
+把下面的插入你的Podfile
+```obj-c
+pod "MWPhotoBrowser", :git => 'https://github.com/Qmeanl/MWPhotoBrowser.git', :commit => '884179bf6284dbed26997c9478713ee952f7544a'
+```
+
+------
 # MWPhotoBrowser
 
 <!--[![CI Status](http://img.shields.io/travis/Michael Waterfall/MWPhotoBrowser.svg?style=flat)](https://travis-ci.org/Michael Waterfall/MWPhotoBrowser)-->

@@ -41,6 +41,6 @@ s.dependency 'MBProgressHUD', '~> 1.0'
 s.dependency 'DACircularProgress', '~> 2.3.1'
 
   # SDWebImage
-   s.dependency 'SDWebImage', '~> 4.0.0'
+   s.dependency 'SDWebImage'
 
 end
